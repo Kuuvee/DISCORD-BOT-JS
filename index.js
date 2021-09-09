@@ -165,4 +165,4 @@ client.on('message', async (message) => {
     }
 })
 keepAlive();
-client.login(config.token);
+client.login(process.env.DJS_TOKEN);
